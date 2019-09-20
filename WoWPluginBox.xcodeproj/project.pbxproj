@@ -1,0 +1,1445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3405B65E1A03946C00E9BFA2 /* BigFootFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B65D1A03946C00E9BFA2 /* BigFootFileList.m */; };
+		3417A0441A0CCB7900397158 /* EuiXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 3417A0431A0CCB7900397158 /* EuiXml.m */; };
+		341B45001A15A73600EA96A8 /* UpdateWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B44FE1A15A73600EA96A8 /* UpdateWindowController.m */; };
+		341B45011A15A73600EA96A8 /* UpdateWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341B44FF1A15A73600EA96A8 /* UpdateWindowController.xib */; };
+		341B450A1A15A7D900EA96A8 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B45081A15A7D900EA96A8 /* PreferencesController.m */; };
+		341B450B1A15A7D900EA96A8 /* PreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341B45091A15A7D900EA96A8 /* PreferencesController.xib */; };
+		3430CDF91A18F5CE004727BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3430CDF81A18F5CE004727BE /* Podfile */; };
+		34475C811A133DA700E74868 /* EuiFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34475C801A133DA700E74868 /* EuiFileList.m */; };
+		345DE2E11A1647400059FED3 /* RootWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE2DF1A1647400059FED3 /* RootWindowController.m */; };
+		345DE2E21A1647400059FED3 /* RootWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2E01A1647400059FED3 /* RootWindowController.xib */; };
+		345DE2E71A165F450059FED3 /* background_wow_wod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2E61A165F450059FED3 /* background_wow_wod.jpg */; };
+		345DE32E1A1662640059FED3 /* btn_primary_disabled_offline_connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2EB1A1662640059FED3 /* btn_primary_disabled_offline_connect.png */; };
+		345DE32F1A1662640059FED3 /* btn_primary_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2EC1A1662640059FED3 /* btn_primary_disabled.png */; };
+		345DE3301A1662640059FED3 /* btn_primary_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2ED1A1662640059FED3 /* btn_primary_hover.png */; };
+		345DE3311A1662640059FED3 /* btn_primary_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2EE1A1662640059FED3 /* btn_primary_normal.png */; };
+		345DE3321A1662640059FED3 /* btn_primary_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2EF1A1662640059FED3 /* btn_primary_pressed.png */; };
+		345DE3331A1662640059FED3 /* btn_secondary_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2F01A1662640059FED3 /* btn_secondary_disabled.png */; };
+		345DE3341A1662640059FED3 /* btn_secondary_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2F11A1662640059FED3 /* btn_secondary_hover.png */; };
+		345DE3351A1662640059FED3 /* btn_secondary_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2F21A1662640059FED3 /* btn_secondary_normal.png */; };
+		345DE3361A1662640059FED3 /* btn_secondary_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE2F31A1662640059FED3 /* btn_secondary_pressed.png */; };
+		345DE34F1A1662640059FED3 /* checkbox_checked_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE30C1A1662640059FED3 /* checkbox_checked_disabled.png */; };
+		345DE3501A1662640059FED3 /* checkbox_checked_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE30D1A1662640059FED3 /* checkbox_checked_hover.png */; };
+		345DE3511A1662640059FED3 /* checkbox_checked_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE30E1A1662640059FED3 /* checkbox_checked_pressed.png */; };
+		345DE3521A1662640059FED3 /* checkbox_checked_required.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE30F1A1662640059FED3 /* checkbox_checked_required.png */; };
+		345DE3531A1662640059FED3 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3101A1662640059FED3 /* checkbox_checked.png */; };
+		345DE3541A1662640059FED3 /* checkbox_unchecked_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3111A1662640059FED3 /* checkbox_unchecked_disabled.png */; };
+		345DE3551A1662640059FED3 /* checkbox_unchecked_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3121A1662640059FED3 /* checkbox_unchecked_hover.png */; };
+		345DE3561A1662640059FED3 /* checkbox_unchecked_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3131A1662640059FED3 /* checkbox_unchecked_pressed.png */; };
+		345DE3571A1662640059FED3 /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3141A1662640059FED3 /* checkbox_unchecked.png */; };
+		345DE3601A1662640059FED3 /* radiobutton_checked_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE31D1A1662640059FED3 /* radiobutton_checked_disabled.png */; };
+		345DE3611A1662640059FED3 /* radiobutton_checked_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE31E1A1662640059FED3 /* radiobutton_checked_hover.png */; };
+		345DE3621A1662640059FED3 /* radiobutton_checked_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE31F1A1662640059FED3 /* radiobutton_checked_pressed.png */; };
+		345DE3631A1662640059FED3 /* radiobutton_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3201A1662640059FED3 /* radiobutton_checked.png */; };
+		345DE3641A1662640059FED3 /* radiobutton_unchecked_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3211A1662640059FED3 /* radiobutton_unchecked_disabled.png */; };
+		345DE3651A1662640059FED3 /* radiobutton_unchecked_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3221A1662640059FED3 /* radiobutton_unchecked_hover.png */; };
+		345DE3661A1662640059FED3 /* radiobutton_unchecked_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3231A1662640059FED3 /* radiobutton_unchecked_pressed.png */; };
+		345DE3671A1662640059FED3 /* radiobutton_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3241A1662640059FED3 /* radiobutton_unchecked.png */; };
+		345DE3681A1662640059FED3 /* toast_base_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3251A1662640059FED3 /* toast_base_hover.png */; };
+		345DE3691A1662640059FED3 /* toast_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3261A1662640059FED3 /* toast_base.png */; };
+		345DE3711A1667750059FED3 /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE36E1A1667750059FED3 /* radio_checked.png */; };
+		345DE3721A1667750059FED3 /* radio_mouse_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE36F1A1667750059FED3 /* radio_mouse_on.png */; };
+		345DE3731A1667750059FED3 /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3701A1667750059FED3 /* radio_unchecked.png */; };
+		345DE37C1A1711180059FED3 /* ic_bigfoot_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3741A1711180059FED3 /* ic_bigfoot_n.png */; };
+		345DE37D1A1711180059FED3 /* ic_bigfoot_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3751A1711180059FED3 /* ic_bigfoot_p.png */; };
+		345DE37E1A1711180059FED3 /* ic_eui_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3761A1711180059FED3 /* ic_eui_n.png */; };
+		345DE37F1A1711180059FED3 /* ic_eui_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3771A1711180059FED3 /* ic_eui_p.png */; };
+		345DE3801A1711180059FED3 /* ic_mogu_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3781A1711180059FED3 /* ic_mogu_n.png */; };
+		345DE3811A1711180059FED3 /* ic_mogu_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3791A1711180059FED3 /* ic_mogu_p.png */; };
+		345DE3821A1711180059FED3 /* ic_wowbox_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE37A1A1711180059FED3 /* ic_wowbox_n.png */; };
+		345DE3831A1711180059FED3 /* ic_wowbox_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE37B1A1711180059FED3 /* ic_wowbox_p.png */; };
+		345DE3861A171E180059FED3 /* ic_local_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3841A171E180059FED3 /* ic_local_n.png */; };
+		345DE3871A171E180059FED3 /* ic_local_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3851A171E180059FED3 /* ic_local_p.png */; };
+		345DE38C1A171F5C0059FED3 /* WowBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE38A1A171F5C0059FED3 /* WowBoxViewController.m */; };
+		345DE38D1A171F5C0059FED3 /* WowBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE38B1A171F5C0059FED3 /* WowBoxViewController.xib */; };
+		345DE3911A1724A70059FED3 /* BigfootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE38F1A1724A70059FED3 /* BigfootViewController.m */; };
+		345DE3921A1724A70059FED3 /* BigfootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3901A1724A70059FED3 /* BigfootViewController.xib */; };
+		345DE3961A1724B80059FED3 /* EuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3941A1724B80059FED3 /* EuiViewController.m */; };
+		345DE3971A1724B80059FED3 /* EuiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3951A1724B80059FED3 /* EuiViewController.xib */; };
+		345DE39B1A1724CB0059FED3 /* MoguViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3991A1724CB0059FED3 /* MoguViewController.m */; };
+		345DE39C1A1724CB0059FED3 /* MoguViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE39A1A1724CB0059FED3 /* MoguViewController.xib */; };
+		345DE3A01A1724DE0059FED3 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE39E1A1724DE0059FED3 /* LocalViewController.m */; };
+		345DE3A11A1724DE0059FED3 /* LocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345DE39F1A1724DE0059FED3 /* LocalViewController.xib */; };
+		345DE3A41A1786BB0059FED3 /* NSImage+Stretchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3A31A1786BB0059FED3 /* NSImage+Stretchable.m */; };
+		345DE3A71A178D500059FED3 /* NSButton+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3A61A178D500059FED3 /* NSButton+Oxygen.m */; };
+		345DE3AB1A1792990059FED3 /* FileInfoCollecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3AA1A1792990059FED3 /* FileInfoCollecter.m */; };
+		345DE3B11A17ABF70059FED3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345DE3B01A17ABF70059FED3 /* BaseViewController.m */; };
+		345DE3BC1A1892890059FED3 /* c_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B21A1892890059FED3 /* c_9.png */; };
+		345DE3BD1A1892890059FED3 /* c_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B31A1892890059FED3 /* c_4.png */; };
+		345DE3BE1A1892890059FED3 /* c_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B41A1892890059FED3 /* c_0.png */; };
+		345DE3BF1A1892890059FED3 /* c_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B51A1892890059FED3 /* c_6.png */; };
+		345DE3C01A1892890059FED3 /* c_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B61A1892890059FED3 /* c_1.png */; };
+		345DE3C11A1892890059FED3 /* c_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B71A1892890059FED3 /* c_3.png */; };
+		345DE3C21A1892890059FED3 /* c_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B81A1892890059FED3 /* c_2.png */; };
+		345DE3C31A1892890059FED3 /* c_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3B91A1892890059FED3 /* c_8.png */; };
+		345DE3C41A1892890059FED3 /* c_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3BA1A1892890059FED3 /* c_5.png */; };
+		345DE3C51A1892890059FED3 /* c_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DE3BB1A1892890059FED3 /* c_7.png */; };
+		3464CFDF1A07297D0051130B /* MoGuPluginList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3464CFDE1A07297D0051130B /* MoGuPluginList.m */; };
+		34AFD9441A1B361C0035BDE2 /* EuiSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD9421A1B361C0035BDE2 /* EuiSettingController.m */; };
+		34AFD9451A1B361C0035BDE2 /* EuiSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AFD9431A1B361C0035BDE2 /* EuiSettingController.xib */; };
+		34AFD9481A1B50DD0035BDE2 /* EuiOtherPluginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD9471A1B50DD0035BDE2 /* EuiOtherPluginCell.m */; };
+		34AFD94B1A1B9DB00035BDE2 /* PluginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD94A1A1B9DB00035BDE2 /* PluginCell.m */; };
+		34AFD94E1A1BA2960035BDE2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD94D1A1BA2960035BDE2 /* MBProgressHUD.m */; };
+		34AFD9511A1BA4810035BDE2 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AFD94F1A1BA4810035BDE2 /* success.png */; };
+		34AFD9521A1BA4810035BDE2 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AFD9501A1BA4810035BDE2 /* success@2x.png */; };
+		34AFD9551A1BA7890035BDE2 /* MBProgressHUD+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD9541A1BA7890035BDE2 /* MBProgressHUD+Extend.m */; };
+		34AFD9571A1BAE9B0035BDE2 /* failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AFD9561A1BAE9B0035BDE2 /* failed.png */; };
+		34AFD95A1A1C218C0035BDE2 /* OFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD9591A1C218C0035BDE2 /* OFFileManager.m */; };
+		34AFD95D1A1C250F0035BDE2 /* LocalPluginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AFD95C1A1C250F0035BDE2 /* LocalPluginCell.m */; };
+		34B4E1B61A189E7C007318FE /* WowBoxPluginCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B4E1B51A189E7C007318FE /* WowBoxPluginCategoryCell.m */; };
+		34B4E1BB1A189EB7007318FE /* WowBoxPluginItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B4E1BA1A189EB7007318FE /* WowBoxPluginItemCell.m */; };
+		34B848E21A104F35003A09B3 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B848DF1A104F35003A09B3 /* SimplePing.m */; };
+		34B848E31A104F35003A09B3 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B848E11A104F35003A09B3 /* SimplePingHelper.m */; };
+		34B848E61A10522D003A09B3 /* PBPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B848E51A10522D003A09B3 /* PBPinger.m */; };
+		34D8C8241A1985DA003A66EE /* FileUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D8C8231A1985DA003A66EE /* FileUpdater.m */; };
+		34FFBD151A0324D50028BF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD141A0324D50028BF47 /* main.m */; };
+		34FFBD181A0324D50028BF47 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD171A0324D50028BF47 /* AppDelegate.mm */; };
+		34FFBD1A1A0324D50028BF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FFBD191A0324D50028BF47 /* Images.xcassets */; };
+		34FFBD1D1A0324D50028BF47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FFBD1B1A0324D50028BF47 /* MainMenu.xib */; };
+		34FFBD291A0324D50028BF47 /* WoWPluginBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD281A0324D50028BF47 /* WoWPluginBoxTests.m */; };
+		34FFBDB51A0336C40028BF47 /* 7zBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD501A0336C40028BF47 /* 7zBuf.c */; };
+		34FFBDB61A0336C40028BF47 /* 7zBuf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD521A0336C40028BF47 /* 7zBuf2.c */; };
+		34FFBDB71A0336C40028BF47 /* 7zDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD531A0336C40028BF47 /* 7zDec.c */; };
+		34FFBDB81A0336C40028BF47 /* 7zFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD541A0336C40028BF47 /* 7zFile.c */; };
+		34FFBDB91A0336C40028BF47 /* 7zIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD561A0336C40028BF47 /* 7zIn.c */; };
+		34FFBDBA1A0336C40028BF47 /* 7zStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD571A0336C40028BF47 /* 7zStream.c */; };
+		34FFBDBB1A0336C40028BF47 /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD591A0336C40028BF47 /* Alloc.c */; };
+		34FFBDBC1A0336C40028BF47 /* CpuArch.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD5B1A0336C40028BF47 /* CpuArch.c */; };
+		34FFBDBD1A0336C40028BF47 /* Delta.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD5D1A0336C40028BF47 /* Delta.c */; };
+		34FFBDBE1A0336C40028BF47 /* Lzma2Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD601A0336C40028BF47 /* Lzma2Dec.c */; };
+		34FFBDBF1A0336C40028BF47 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD621A0336C40028BF47 /* LzmaDec.c */; };
+		34FFBDC01A0336C40028BF47 /* LZMAExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD651A0336C40028BF47 /* LZMAExtractor.m */; };
+		34FFBDC11A0336C40028BF47 /* Ppmd7.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD671A0336C40028BF47 /* Ppmd7.c */; };
+		34FFBDC21A0336C40028BF47 /* Ppmd7Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD691A0336C40028BF47 /* Ppmd7Dec.c */; };
+		34FFBDC31A0336C40028BF47 /* Ppmd8.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD6A1A0336C40028BF47 /* Ppmd8.c */; };
+		34FFBDC41A0336C40028BF47 /* Ppmd8Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD6C1A0336C40028BF47 /* Ppmd8Dec.c */; };
+		34FFBDC51A0336C40028BF47 /* 7zAlloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD711A0336C40028BF47 /* 7zAlloc.c */; };
+		34FFBDC61A0336C40028BF47 /* 7zMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD731A0336C40028BF47 /* 7zMain.c */; };
+		34FFBDC71A0336C40028BF47 /* NSAlert+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD781A0336C40028BF47 /* NSAlert+Oxygen.m */; };
+		34FFBDC81A0336C40028BF47 /* NSColor+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD7A1A0336C40028BF47 /* NSColor+Oxygen.m */; };
+		34FFBDC91A0336C40028BF47 /* NSData+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD7C1A0336C40028BF47 /* NSData+Oxygen.m */; };
+		34FFBDCA1A0336C40028BF47 /* NSDate+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD7E1A0336C40028BF47 /* NSDate+Oxygen.m */; };
+		34FFBDCB1A0336C40028BF47 /* NSDictionary+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD801A0336C40028BF47 /* NSDictionary+Oxygen.m */; };
+		34FFBDCC1A0336C40028BF47 /* NSNumber+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD821A0336C40028BF47 /* NSNumber+Oxygen.m */; };
+		34FFBDCD1A0336C40028BF47 /* NSObject+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD841A0336C40028BF47 /* NSObject+Oxygen.m */; };
+		34FFBDCE1A0336C40028BF47 /* NSString+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD861A0336C40028BF47 /* NSString+Oxygen.m */; };
+		34FFBDCF1A0336C40028BF47 /* NSURL+Oxygen.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD881A0336C40028BF47 /* NSURL+Oxygen.m */; };
+		34FFBDD01A0336C40028BF47 /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD8D1A0336C40028BF47 /* HttpRequestManager.m */; };
+		34FFBDD11A0336C40028BF47 /* NSObject+HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD8F1A0336C40028BF47 /* NSObject+HTTPRequest.m */; };
+		34FFBDD41A0336C40028BF47 /* OFMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBD9A1A0336C40028BF47 /* OFMutableDictionary.m */; };
+		34FFBDD51A0336C40028BF47 /* Oxygen2.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDA01A0336C40028BF47 /* Oxygen2.m */; };
+		34FFBDD71A0336C40028BF47 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDAA1A0336C40028BF47 /* GTMBase64.m */; };
+		34FFBDD81A0336C40028BF47 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDAC1A0336C40028BF47 /* JZLocationConverter.m */; };
+		34FFBDF21A033E370028BF47 /* BaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDE81A033E370028BF47 /* BaseJSONModel.m */; };
+		34FFBDF31A033E370028BF47 /* AddonsUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDED1A033E370028BF47 /* AddonsUpdater.m */; };
+		34FFBDF41A033E370028BF47 /* PluginCrcList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDEF1A033E370028BF47 /* PluginCrcList.m */; };
+		34FFBDF51A033E370028BF47 /* PluginList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDF11A033E370028BF47 /* PluginList.m */; };
+		82680F56B197BC5E94937E1C /* libPods-WoWPluginBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 023F2C5DCCE5505BE22DF048 /* libPods-WoWPluginBox.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FFBD231A0324D50028BF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FFBD071A0324D50028BF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FFBD0E1A0324D50028BF47;
+			remoteInfo = WoWPluginBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023F2C5DCCE5505BE22DF048 /* libPods-WoWPluginBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoWPluginBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7E4B0B6F85A5B108F23D0 /* Pods-WoWPluginBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoWPluginBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoWPluginBox/Pods-WoWPluginBox.release.xcconfig"; sourceTree = "<group>"; };
+		3405B65C1A03946C00E9BFA2 /* BigFootFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFootFileList.h; sourceTree = "<group>"; };
+		3405B65D1A03946C00E9BFA2 /* BigFootFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFootFileList.m; sourceTree = "<group>"; };
+		3417A0421A0CCB7900397158 /* EuiXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuiXml.h; sourceTree = "<group>"; };
+		3417A0431A0CCB7900397158 /* EuiXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuiXml.m; sourceTree = "<group>"; };
+		341B44FD1A15A73600EA96A8 /* UpdateWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateWindowController.h; sourceTree = "<group>"; };
+		341B44FE1A15A73600EA96A8 /* UpdateWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateWindowController.m; sourceTree = "<group>"; };
+		341B44FF1A15A73600EA96A8 /* UpdateWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateWindowController.xib; sourceTree = "<group>"; };
+		341B45071A15A7D900EA96A8 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		341B45081A15A7D900EA96A8 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		341B45091A15A7D900EA96A8 /* PreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesController.xib; sourceTree = "<group>"; };
+		3430CDF81A18F5CE004727BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34475C7F1A133DA700E74868 /* EuiFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuiFileList.h; sourceTree = "<group>"; };
+		34475C801A133DA700E74868 /* EuiFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuiFileList.m; sourceTree = "<group>"; };
+		345DE2DE1A1647400059FED3 /* RootWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWindowController.h; sourceTree = "<group>"; };
+		345DE2DF1A1647400059FED3 /* RootWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWindowController.m; sourceTree = "<group>"; };
+		345DE2E01A1647400059FED3 /* RootWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootWindowController.xib; sourceTree = "<group>"; };
+		345DE2E61A165F450059FED3 /* background_wow_wod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_wow_wod.jpg; sourceTree = "<group>"; };
+		345DE2EB1A1662640059FED3 /* btn_primary_disabled_offline_connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_primary_disabled_offline_connect.png; sourceTree = "<group>"; };
+		345DE2EC1A1662640059FED3 /* btn_primary_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_primary_disabled.png; sourceTree = "<group>"; };
+		345DE2ED1A1662640059FED3 /* btn_primary_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_primary_hover.png; sourceTree = "<group>"; };
+		345DE2EE1A1662640059FED3 /* btn_primary_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_primary_normal.png; sourceTree = "<group>"; };
+		345DE2EF1A1662640059FED3 /* btn_primary_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_primary_pressed.png; sourceTree = "<group>"; };
+		345DE2F01A1662640059FED3 /* btn_secondary_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_secondary_disabled.png; sourceTree = "<group>"; };
+		345DE2F11A1662640059FED3 /* btn_secondary_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_secondary_hover.png; sourceTree = "<group>"; };
+		345DE2F21A1662640059FED3 /* btn_secondary_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_secondary_normal.png; sourceTree = "<group>"; };
+		345DE2F31A1662640059FED3 /* btn_secondary_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_secondary_pressed.png; sourceTree = "<group>"; };
+		345DE30C1A1662640059FED3 /* checkbox_checked_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked_disabled.png; sourceTree = "<group>"; };
+		345DE30D1A1662640059FED3 /* checkbox_checked_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked_hover.png; sourceTree = "<group>"; };
+		345DE30E1A1662640059FED3 /* checkbox_checked_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked_pressed.png; sourceTree = "<group>"; };
+		345DE30F1A1662640059FED3 /* checkbox_checked_required.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked_required.png; sourceTree = "<group>"; };
+		345DE3101A1662640059FED3 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		345DE3111A1662640059FED3 /* checkbox_unchecked_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked_disabled.png; sourceTree = "<group>"; };
+		345DE3121A1662640059FED3 /* checkbox_unchecked_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked_hover.png; sourceTree = "<group>"; };
+		345DE3131A1662640059FED3 /* checkbox_unchecked_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked_pressed.png; sourceTree = "<group>"; };
+		345DE3141A1662640059FED3 /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		345DE31D1A1662640059FED3 /* radiobutton_checked_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_checked_disabled.png; sourceTree = "<group>"; };
+		345DE31E1A1662640059FED3 /* radiobutton_checked_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_checked_hover.png; sourceTree = "<group>"; };
+		345DE31F1A1662640059FED3 /* radiobutton_checked_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_checked_pressed.png; sourceTree = "<group>"; };
+		345DE3201A1662640059FED3 /* radiobutton_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_checked.png; sourceTree = "<group>"; };
+		345DE3211A1662640059FED3 /* radiobutton_unchecked_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_unchecked_disabled.png; sourceTree = "<group>"; };
+		345DE3221A1662640059FED3 /* radiobutton_unchecked_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_unchecked_hover.png; sourceTree = "<group>"; };
+		345DE3231A1662640059FED3 /* radiobutton_unchecked_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_unchecked_pressed.png; sourceTree = "<group>"; };
+		345DE3241A1662640059FED3 /* radiobutton_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton_unchecked.png; sourceTree = "<group>"; };
+		345DE3251A1662640059FED3 /* toast_base_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_base_hover.png; sourceTree = "<group>"; };
+		345DE3261A1662640059FED3 /* toast_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_base.png; sourceTree = "<group>"; };
+		345DE36E1A1667750059FED3 /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		345DE36F1A1667750059FED3 /* radio_mouse_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_mouse_on.png; sourceTree = "<group>"; };
+		345DE3701A1667750059FED3 /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
+		345DE3741A1711180059FED3 /* ic_bigfoot_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bigfoot_n.png; sourceTree = "<group>"; };
+		345DE3751A1711180059FED3 /* ic_bigfoot_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bigfoot_p.png; sourceTree = "<group>"; };
+		345DE3761A1711180059FED3 /* ic_eui_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eui_n.png; sourceTree = "<group>"; };
+		345DE3771A1711180059FED3 /* ic_eui_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eui_p.png; sourceTree = "<group>"; };
+		345DE3781A1711180059FED3 /* ic_mogu_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mogu_n.png; sourceTree = "<group>"; };
+		345DE3791A1711180059FED3 /* ic_mogu_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mogu_p.png; sourceTree = "<group>"; };
+		345DE37A1A1711180059FED3 /* ic_wowbox_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_wowbox_n.png; sourceTree = "<group>"; };
+		345DE37B1A1711180059FED3 /* ic_wowbox_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_wowbox_p.png; sourceTree = "<group>"; };
+		345DE3841A171E180059FED3 /* ic_local_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_local_n.png; sourceTree = "<group>"; };
+		345DE3851A171E180059FED3 /* ic_local_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_local_p.png; sourceTree = "<group>"; };
+		345DE3891A171F5C0059FED3 /* WowBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowBoxViewController.h; sourceTree = "<group>"; };
+		345DE38A1A171F5C0059FED3 /* WowBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowBoxViewController.m; sourceTree = "<group>"; };
+		345DE38B1A171F5C0059FED3 /* WowBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WowBoxViewController.xib; sourceTree = "<group>"; };
+		345DE38E1A1724A70059FED3 /* BigfootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigfootViewController.h; sourceTree = "<group>"; };
+		345DE38F1A1724A70059FED3 /* BigfootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigfootViewController.m; sourceTree = "<group>"; };
+		345DE3901A1724A70059FED3 /* BigfootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigfootViewController.xib; sourceTree = "<group>"; };
+		345DE3931A1724B80059FED3 /* EuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuiViewController.h; sourceTree = "<group>"; };
+		345DE3941A1724B80059FED3 /* EuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuiViewController.m; sourceTree = "<group>"; };
+		345DE3951A1724B80059FED3 /* EuiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EuiViewController.xib; sourceTree = "<group>"; };
+		345DE3981A1724CB0059FED3 /* MoguViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoguViewController.h; sourceTree = "<group>"; };
+		345DE3991A1724CB0059FED3 /* MoguViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoguViewController.m; sourceTree = "<group>"; };
+		345DE39A1A1724CB0059FED3 /* MoguViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoguViewController.xib; sourceTree = "<group>"; };
+		345DE39D1A1724DE0059FED3 /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		345DE39E1A1724DE0059FED3 /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		345DE39F1A1724DE0059FED3 /* LocalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalViewController.xib; sourceTree = "<group>"; };
+		345DE3A21A1786BB0059FED3 /* NSImage+Stretchable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Stretchable.h"; sourceTree = "<group>"; };
+		345DE3A31A1786BB0059FED3 /* NSImage+Stretchable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Stretchable.m"; sourceTree = "<group>"; };
+		345DE3A51A178D500059FED3 /* NSButton+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+Oxygen.h"; sourceTree = "<group>"; };
+		345DE3A61A178D500059FED3 /* NSButton+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+Oxygen.m"; sourceTree = "<group>"; };
+		345DE3A91A1792990059FED3 /* FileInfoCollecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileInfoCollecter.h; sourceTree = "<group>"; };
+		345DE3AA1A1792990059FED3 /* FileInfoCollecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileInfoCollecter.m; sourceTree = "<group>"; };
+		345DE3AF1A17ABF70059FED3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		345DE3B01A17ABF70059FED3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		345DE3B21A1892890059FED3 /* c_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_9.png; sourceTree = "<group>"; };
+		345DE3B31A1892890059FED3 /* c_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_4.png; sourceTree = "<group>"; };
+		345DE3B41A1892890059FED3 /* c_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_0.png; sourceTree = "<group>"; };
+		345DE3B51A1892890059FED3 /* c_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_6.png; sourceTree = "<group>"; };
+		345DE3B61A1892890059FED3 /* c_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_1.png; sourceTree = "<group>"; };
+		345DE3B71A1892890059FED3 /* c_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_3.png; sourceTree = "<group>"; };
+		345DE3B81A1892890059FED3 /* c_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_2.png; sourceTree = "<group>"; };
+		345DE3B91A1892890059FED3 /* c_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_8.png; sourceTree = "<group>"; };
+		345DE3BA1A1892890059FED3 /* c_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_5.png; sourceTree = "<group>"; };
+		345DE3BB1A1892890059FED3 /* c_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_7.png; sourceTree = "<group>"; };
+		3464CFDD1A07297D0051130B /* MoGuPluginList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGuPluginList.h; sourceTree = "<group>"; };
+		3464CFDE1A07297D0051130B /* MoGuPluginList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGuPluginList.m; sourceTree = "<group>"; };
+		34AFD9411A1B361C0035BDE2 /* EuiSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuiSettingController.h; sourceTree = "<group>"; };
+		34AFD9421A1B361C0035BDE2 /* EuiSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuiSettingController.m; sourceTree = "<group>"; };
+		34AFD9431A1B361C0035BDE2 /* EuiSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EuiSettingController.xib; sourceTree = "<group>"; };
+		34AFD9461A1B50DD0035BDE2 /* EuiOtherPluginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuiOtherPluginCell.h; sourceTree = "<group>"; };
+		34AFD9471A1B50DD0035BDE2 /* EuiOtherPluginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuiOtherPluginCell.m; sourceTree = "<group>"; };
+		34AFD9491A1B9DB00035BDE2 /* PluginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginCell.h; sourceTree = "<group>"; };
+		34AFD94A1A1B9DB00035BDE2 /* PluginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginCell.m; sourceTree = "<group>"; };
+		34AFD94C1A1BA2960035BDE2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		34AFD94D1A1BA2960035BDE2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		34AFD94F1A1BA4810035BDE2 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		34AFD9501A1BA4810035BDE2 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		34AFD9531A1BA7890035BDE2 /* MBProgressHUD+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extend.h"; sourceTree = "<group>"; };
+		34AFD9541A1BA7890035BDE2 /* MBProgressHUD+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extend.m"; sourceTree = "<group>"; };
+		34AFD9561A1BAE9B0035BDE2 /* failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failed.png; sourceTree = "<group>"; };
+		34AFD9581A1C218C0035BDE2 /* OFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFFileManager.h; sourceTree = "<group>"; };
+		34AFD9591A1C218C0035BDE2 /* OFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFFileManager.m; sourceTree = "<group>"; };
+		34AFD95B1A1C250F0035BDE2 /* LocalPluginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPluginCell.h; sourceTree = "<group>"; };
+		34AFD95C1A1C250F0035BDE2 /* LocalPluginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPluginCell.m; sourceTree = "<group>"; };
+		34B4E1B41A189E7C007318FE /* WowBoxPluginCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowBoxPluginCategoryCell.h; sourceTree = "<group>"; };
+		34B4E1B51A189E7C007318FE /* WowBoxPluginCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowBoxPluginCategoryCell.m; sourceTree = "<group>"; };
+		34B4E1B91A189EB7007318FE /* WowBoxPluginItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowBoxPluginItemCell.h; sourceTree = "<group>"; };
+		34B4E1BA1A189EB7007318FE /* WowBoxPluginItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowBoxPluginItemCell.m; sourceTree = "<group>"; };
+		34B848DE1A104F35003A09B3 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		34B848DF1A104F35003A09B3 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		34B848E01A104F35003A09B3 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		34B848E11A104F35003A09B3 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		34B848E41A10522D003A09B3 /* PBPinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPinger.h; sourceTree = "<group>"; };
+		34B848E51A10522D003A09B3 /* PBPinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPinger.m; sourceTree = "<group>"; };
+		34D8C8221A1985DA003A66EE /* FileUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUpdater.h; sourceTree = "<group>"; };
+		34D8C8231A1985DA003A66EE /* FileUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUpdater.m; sourceTree = "<group>"; };
+		34FFBD0F1A0324D50028BF47 /* WoWPluginBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoWPluginBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFBD131A0324D50028BF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FFBD141A0324D50028BF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34FFBD161A0324D50028BF47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34FFBD171A0324D50028BF47 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		34FFBD191A0324D50028BF47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34FFBD1C1A0324D50028BF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		34FFBD221A0324D50028BF47 /* WoWPluginBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoWPluginBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFBD271A0324D50028BF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FFBD281A0324D50028BF47 /* WoWPluginBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoWPluginBoxTests.m; sourceTree = "<group>"; };
+		34FFBD421A0335C50028BF47 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		34FFBD4F1A0336C40028BF47 /* 7z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7z.h; sourceTree = "<group>"; };
+		34FFBD501A0336C40028BF47 /* 7zBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf.c; sourceTree = "<group>"; };
+		34FFBD511A0336C40028BF47 /* 7zBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zBuf.h; sourceTree = "<group>"; };
+		34FFBD521A0336C40028BF47 /* 7zBuf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf2.c; sourceTree = "<group>"; };
+		34FFBD531A0336C40028BF47 /* 7zDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zDec.c; sourceTree = "<group>"; };
+		34FFBD541A0336C40028BF47 /* 7zFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zFile.c; sourceTree = "<group>"; };
+		34FFBD551A0336C40028BF47 /* 7zFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zFile.h; sourceTree = "<group>"; };
+		34FFBD561A0336C40028BF47 /* 7zIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zIn.c; sourceTree = "<group>"; };
+		34FFBD571A0336C40028BF47 /* 7zStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zStream.c; sourceTree = "<group>"; };
+		34FFBD581A0336C40028BF47 /* 7zVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zVersion.h; sourceTree = "<group>"; };
+		34FFBD591A0336C40028BF47 /* Alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Alloc.c; sourceTree = "<group>"; };
+		34FFBD5A1A0336C40028BF47 /* Alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alloc.h; sourceTree = "<group>"; };
+		34FFBD5B1A0336C40028BF47 /* CpuArch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CpuArch.c; sourceTree = "<group>"; };
+		34FFBD5C1A0336C40028BF47 /* CpuArch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuArch.h; sourceTree = "<group>"; };
+		34FFBD5D1A0336C40028BF47 /* Delta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Delta.c; sourceTree = "<group>"; };
+		34FFBD5E1A0336C40028BF47 /* Delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delta.h; sourceTree = "<group>"; };
+		34FFBD5F1A0336C40028BF47 /* LzHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzHash.h; sourceTree = "<group>"; };
+		34FFBD601A0336C40028BF47 /* Lzma2Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lzma2Dec.c; sourceTree = "<group>"; };
+		34FFBD611A0336C40028BF47 /* Lzma2Dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lzma2Dec.h; sourceTree = "<group>"; };
+		34FFBD621A0336C40028BF47 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
+		34FFBD631A0336C40028BF47 /* LzmaDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
+		34FFBD641A0336C40028BF47 /* LZMAExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMAExtractor.h; sourceTree = "<group>"; };
+		34FFBD651A0336C40028BF47 /* LZMAExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMAExtractor.m; sourceTree = "<group>"; };
+		34FFBD661A0336C40028BF47 /* Ppmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd.h; sourceTree = "<group>"; };
+		34FFBD671A0336C40028BF47 /* Ppmd7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd7.c; sourceTree = "<group>"; };
+		34FFBD681A0336C40028BF47 /* Ppmd7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd7.h; sourceTree = "<group>"; };
+		34FFBD691A0336C40028BF47 /* Ppmd7Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd7Dec.c; sourceTree = "<group>"; };
+		34FFBD6A1A0336C40028BF47 /* Ppmd8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd8.c; sourceTree = "<group>"; };
+		34FFBD6B1A0336C40028BF47 /* Ppmd8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd8.h; sourceTree = "<group>"; };
+		34FFBD6C1A0336C40028BF47 /* Ppmd8Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd8Dec.c; sourceTree = "<group>"; };
+		34FFBD6D1A0336C40028BF47 /* RotateDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateDefs.h; sourceTree = "<group>"; };
+		34FFBD6E1A0336C40028BF47 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		34FFBD711A0336C40028BF47 /* 7zAlloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zAlloc.c; sourceTree = "<group>"; };
+		34FFBD721A0336C40028BF47 /* 7zAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zAlloc.h; sourceTree = "<group>"; };
+		34FFBD731A0336C40028BF47 /* 7zMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zMain.c; sourceTree = "<group>"; };
+		34FFBD771A0336C40028BF47 /* NSAlert+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD781A0336C40028BF47 /* NSAlert+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD791A0336C40028BF47 /* NSColor+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD7A1A0336C40028BF47 /* NSColor+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD7B1A0336C40028BF47 /* NSData+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD7C1A0336C40028BF47 /* NSData+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD7D1A0336C40028BF47 /* NSDate+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD7E1A0336C40028BF47 /* NSDate+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD7F1A0336C40028BF47 /* NSDictionary+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD801A0336C40028BF47 /* NSDictionary+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD811A0336C40028BF47 /* NSNumber+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD821A0336C40028BF47 /* NSNumber+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD831A0336C40028BF47 /* NSObject+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD841A0336C40028BF47 /* NSObject+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD851A0336C40028BF47 /* NSString+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD861A0336C40028BF47 /* NSString+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD871A0336C40028BF47 /* NSURL+Oxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Oxygen.h"; sourceTree = "<group>"; };
+		34FFBD881A0336C40028BF47 /* NSURL+Oxygen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Oxygen.m"; sourceTree = "<group>"; };
+		34FFBD8C1A0336C40028BF47 /* HttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
+		34FFBD8D1A0336C40028BF47 /* HttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
+		34FFBD8E1A0336C40028BF47 /* NSObject+HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HTTPRequest.h"; sourceTree = "<group>"; };
+		34FFBD8F1A0336C40028BF47 /* NSObject+HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HTTPRequest.m"; sourceTree = "<group>"; };
+		34FFBD991A0336C40028BF47 /* OFMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFMutableDictionary.h; sourceTree = "<group>"; };
+		34FFBD9A1A0336C40028BF47 /* OFMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFMutableDictionary.m; sourceTree = "<group>"; };
+		34FFBD9D1A0336C40028BF47 /* OFMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFMacro.h; sourceTree = "<group>"; };
+		34FFBD9E1A0336C40028BF47 /* Oxygen2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Oxygen2-Prefix.pch"; sourceTree = "<group>"; };
+		34FFBD9F1A0336C40028BF47 /* Oxygen2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oxygen2.h; sourceTree = "<group>"; };
+		34FFBDA01A0336C40028BF47 /* Oxygen2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oxygen2.m; sourceTree = "<group>"; };
+		34FFBDA91A0336C40028BF47 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		34FFBDAA1A0336C40028BF47 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		34FFBDAB1A0336C40028BF47 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		34FFBDAC1A0336C40028BF47 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		34FFBDAD1A0336C40028BF47 /* ConstKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstKeys.h; sourceTree = "<group>"; };
+		34FFBDAE1A0336C40028BF47 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		34FFBDAF1A0336C40028BF47 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		34FFBDB01A0336C40028BF47 /* SysConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysConfig.h; sourceTree = "<group>"; };
+		34FFBDE71A033E370028BF47 /* BaseJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJSONModel.h; sourceTree = "<group>"; };
+		34FFBDE81A033E370028BF47 /* BaseJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJSONModel.m; sourceTree = "<group>"; };
+		34FFBDEC1A033E370028BF47 /* AddonsUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddonsUpdater.h; sourceTree = "<group>"; };
+		34FFBDED1A033E370028BF47 /* AddonsUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddonsUpdater.m; sourceTree = "<group>"; };
+		34FFBDEE1A033E370028BF47 /* PluginCrcList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginCrcList.h; sourceTree = "<group>"; };
+		34FFBDEF1A033E370028BF47 /* PluginCrcList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginCrcList.m; sourceTree = "<group>"; };
+		34FFBDF01A033E370028BF47 /* PluginList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginList.h; sourceTree = "<group>"; };
+		34FFBDF11A033E370028BF47 /* PluginList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginList.m; sourceTree = "<group>"; };
+		524B7A4AFF94462FD04EBC4E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6D1B3221BBF2FF1867B9C530 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		778ACD54A75D2A15CDDDAA58 /* Pods-WoWPluginBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoWPluginBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoWPluginBox/Pods-WoWPluginBox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FFBD0C1A0324D50028BF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82680F56B197BC5E94937E1C /* libPods-WoWPluginBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFBD1F1A0324D50028BF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC7E97C0F0C59171ECD5E26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023F2C5DCCE5505BE22DF048 /* libPods-WoWPluginBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3417A0411A0CCB6600397158 /* Eui */ = {
+			isa = PBXGroup;
+			children = (
+				3417A0421A0CCB7900397158 /* EuiXml.h */,
+				3417A0431A0CCB7900397158 /* EuiXml.m */,
+				34475C7F1A133DA700E74868 /* EuiFileList.h */,
+				34475C801A133DA700E74868 /* EuiFileList.m */,
+			);
+			path = Eui;
+			sourceTree = "<group>";
+		};
+		341B44FC1A15A72000EA96A8 /* WindowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				341B44FD1A15A73600EA96A8 /* UpdateWindowController.h */,
+				341B44FE1A15A73600EA96A8 /* UpdateWindowController.m */,
+				341B44FF1A15A73600EA96A8 /* UpdateWindowController.xib */,
+				341B45071A15A7D900EA96A8 /* PreferencesController.h */,
+				341B45081A15A7D900EA96A8 /* PreferencesController.m */,
+				341B45091A15A7D900EA96A8 /* PreferencesController.xib */,
+				345DE2DE1A1647400059FED3 /* RootWindowController.h */,
+				345DE2DF1A1647400059FED3 /* RootWindowController.m */,
+				345DE2E01A1647400059FED3 /* RootWindowController.xib */,
+			);
+			path = WindowControllers;
+			sourceTree = "<group>";
+		};
+		345DE2E51A165F360059FED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34AFD9561A1BAE9B0035BDE2 /* failed.png */,
+				34AFD94F1A1BA4810035BDE2 /* success.png */,
+				34AFD9501A1BA4810035BDE2 /* success@2x.png */,
+				345DE3B21A1892890059FED3 /* c_9.png */,
+				345DE3B31A1892890059FED3 /* c_4.png */,
+				345DE3B41A1892890059FED3 /* c_0.png */,
+				345DE3B51A1892890059FED3 /* c_6.png */,
+				345DE3B61A1892890059FED3 /* c_1.png */,
+				345DE3B71A1892890059FED3 /* c_3.png */,
+				345DE3B81A1892890059FED3 /* c_2.png */,
+				345DE3B91A1892890059FED3 /* c_8.png */,
+				345DE3BA1A1892890059FED3 /* c_5.png */,
+				345DE3BB1A1892890059FED3 /* c_7.png */,
+				345DE3841A171E180059FED3 /* ic_local_n.png */,
+				345DE3851A171E180059FED3 /* ic_local_p.png */,
+				345DE3741A1711180059FED3 /* ic_bigfoot_n.png */,
+				345DE3751A1711180059FED3 /* ic_bigfoot_p.png */,
+				345DE3761A1711180059FED3 /* ic_eui_n.png */,
+				345DE3771A1711180059FED3 /* ic_eui_p.png */,
+				345DE3781A1711180059FED3 /* ic_mogu_n.png */,
+				345DE3791A1711180059FED3 /* ic_mogu_p.png */,
+				345DE37A1A1711180059FED3 /* ic_wowbox_n.png */,
+				345DE37B1A1711180059FED3 /* ic_wowbox_p.png */,
+				345DE36E1A1667750059FED3 /* radio_checked.png */,
+				345DE36F1A1667750059FED3 /* radio_mouse_on.png */,
+				345DE3701A1667750059FED3 /* radio_unchecked.png */,
+				345DE2E61A165F450059FED3 /* background_wow_wod.jpg */,
+				345DE2EB1A1662640059FED3 /* btn_primary_disabled_offline_connect.png */,
+				345DE2EC1A1662640059FED3 /* btn_primary_disabled.png */,
+				345DE2ED1A1662640059FED3 /* btn_primary_hover.png */,
+				345DE2EE1A1662640059FED3 /* btn_primary_normal.png */,
+				345DE2EF1A1662640059FED3 /* btn_primary_pressed.png */,
+				345DE2F01A1662640059FED3 /* btn_secondary_disabled.png */,
+				345DE2F11A1662640059FED3 /* btn_secondary_hover.png */,
+				345DE2F21A1662640059FED3 /* btn_secondary_normal.png */,
+				345DE2F31A1662640059FED3 /* btn_secondary_pressed.png */,
+				345DE30C1A1662640059FED3 /* checkbox_checked_disabled.png */,
+				345DE30D1A1662640059FED3 /* checkbox_checked_hover.png */,
+				345DE30E1A1662640059FED3 /* checkbox_checked_pressed.png */,
+				345DE30F1A1662640059FED3 /* checkbox_checked_required.png */,
+				345DE3101A1662640059FED3 /* checkbox_checked.png */,
+				345DE3111A1662640059FED3 /* checkbox_unchecked_disabled.png */,
+				345DE3121A1662640059FED3 /* checkbox_unchecked_hover.png */,
+				345DE3131A1662640059FED3 /* checkbox_unchecked_pressed.png */,
+				345DE3141A1662640059FED3 /* checkbox_unchecked.png */,
+				345DE31D1A1662640059FED3 /* radiobutton_checked_disabled.png */,
+				345DE31E1A1662640059FED3 /* radiobutton_checked_hover.png */,
+				345DE31F1A1662640059FED3 /* radiobutton_checked_pressed.png */,
+				345DE3201A1662640059FED3 /* radiobutton_checked.png */,
+				345DE3211A1662640059FED3 /* radiobutton_unchecked_disabled.png */,
+				345DE3221A1662640059FED3 /* radiobutton_unchecked_hover.png */,
+				345DE3231A1662640059FED3 /* radiobutton_unchecked_pressed.png */,
+				345DE3241A1662640059FED3 /* radiobutton_unchecked.png */,
+				345DE3251A1662640059FED3 /* toast_base_hover.png */,
+				345DE3261A1662640059FED3 /* toast_base.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		345DE3881A171F1A0059FED3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				345DE3AF1A17ABF70059FED3 /* BaseViewController.h */,
+				345DE3B01A17ABF70059FED3 /* BaseViewController.m */,
+				345DE3891A171F5C0059FED3 /* WowBoxViewController.h */,
+				345DE38A1A171F5C0059FED3 /* WowBoxViewController.m */,
+				345DE38B1A171F5C0059FED3 /* WowBoxViewController.xib */,
+				345DE38E1A1724A70059FED3 /* BigfootViewController.h */,
+				345DE38F1A1724A70059FED3 /* BigfootViewController.m */,
+				345DE3901A1724A70059FED3 /* BigfootViewController.xib */,
+				345DE3931A1724B80059FED3 /* EuiViewController.h */,
+				345DE3941A1724B80059FED3 /* EuiViewController.m */,
+				345DE3951A1724B80059FED3 /* EuiViewController.xib */,
+				34AFD9411A1B361C0035BDE2 /* EuiSettingController.h */,
+				34AFD9421A1B361C0035BDE2 /* EuiSettingController.m */,
+				34AFD9431A1B361C0035BDE2 /* EuiSettingController.xib */,
+				345DE3981A1724CB0059FED3 /* MoguViewController.h */,
+				345DE3991A1724CB0059FED3 /* MoguViewController.m */,
+				345DE39A1A1724CB0059FED3 /* MoguViewController.xib */,
+				345DE39D1A1724DE0059FED3 /* LocalViewController.h */,
+				345DE39E1A1724DE0059FED3 /* LocalViewController.m */,
+				345DE39F1A1724DE0059FED3 /* LocalViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		345DE3A81A178FED0059FED3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				345DE3A91A1792990059FED3 /* FileInfoCollecter.h */,
+				345DE3AA1A1792990059FED3 /* FileInfoCollecter.m */,
+				34D8C8221A1985DA003A66EE /* FileUpdater.h */,
+				34D8C8231A1985DA003A66EE /* FileUpdater.m */,
+				34AFD9581A1C218C0035BDE2 /* OFFileManager.h */,
+				34AFD9591A1C218C0035BDE2 /* OFFileManager.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		34B4E1B31A18965A007318FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34B4E1B41A189E7C007318FE /* WowBoxPluginCategoryCell.h */,
+				34B4E1B51A189E7C007318FE /* WowBoxPluginCategoryCell.m */,
+				34B4E1B91A189EB7007318FE /* WowBoxPluginItemCell.h */,
+				34B4E1BA1A189EB7007318FE /* WowBoxPluginItemCell.m */,
+				34AFD9461A1B50DD0035BDE2 /* EuiOtherPluginCell.h */,
+				34AFD9471A1B50DD0035BDE2 /* EuiOtherPluginCell.m */,
+				34AFD9491A1B9DB00035BDE2 /* PluginCell.h */,
+				34AFD94A1A1B9DB00035BDE2 /* PluginCell.m */,
+				34AFD95B1A1C250F0035BDE2 /* LocalPluginCell.h */,
+				34AFD95C1A1C250F0035BDE2 /* LocalPluginCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34B848DD1A104F2C003A09B3 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				34B848E41A10522D003A09B3 /* PBPinger.h */,
+				34B848E51A10522D003A09B3 /* PBPinger.m */,
+				34B848DE1A104F35003A09B3 /* SimplePing.h */,
+				34B848DF1A104F35003A09B3 /* SimplePing.m */,
+				34B848E01A104F35003A09B3 /* SimplePingHelper.h */,
+				34B848E11A104F35003A09B3 /* SimplePingHelper.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		34FFBD061A0324D50028BF47 = {
+			isa = PBXGroup;
+			children = (
+				34FFBD111A0324D50028BF47 /* WoWPluginBox */,
+				34FFBD251A0324D50028BF47 /* WoWPluginBoxTests */,
+				34FFBD101A0324D50028BF47 /* Products */,
+				6A3692D9A6E5A1E19D5948F1 /* Pods */,
+				1FC7E97C0F0C59171ECD5E26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34FFBD101A0324D50028BF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD0F1A0324D50028BF47 /* WoWPluginBox.app */,
+				34FFBD221A0324D50028BF47 /* WoWPluginBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FFBD111A0324D50028BF47 /* WoWPluginBox */ = {
+			isa = PBXGroup;
+			children = (
+				3430CDF81A18F5CE004727BE /* Podfile */,
+				34FFBD431A0336C40028BF47 /* Libs */,
+				34FFBD741A0336C40028BF47 /* Oxygen2 */,
+				34FFBDAD1A0336C40028BF47 /* ConstKeys.h */,
+				34FFBDAE1A0336C40028BF47 /* Macro.h */,
+				34FFBDAF1A0336C40028BF47 /* Prefix.pch */,
+				34FFBDB01A0336C40028BF47 /* SysConfig.h */,
+				34FFBD161A0324D50028BF47 /* AppDelegate.h */,
+				34FFBD171A0324D50028BF47 /* AppDelegate.mm */,
+				34FFBD1B1A0324D50028BF47 /* MainMenu.xib */,
+				34FFBD321A03289F0028BF47 /* Classes */,
+				345DE2E51A165F360059FED3 /* Resources */,
+				34FFBD191A0324D50028BF47 /* Images.xcassets */,
+				34FFBD121A0324D50028BF47 /* Supporting Files */,
+			);
+			path = WoWPluginBox;
+			sourceTree = "<group>";
+		};
+		34FFBD121A0324D50028BF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD131A0324D50028BF47 /* Info.plist */,
+				34FFBD141A0324D50028BF47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FFBD251A0324D50028BF47 /* WoWPluginBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD281A0324D50028BF47 /* WoWPluginBoxTests.m */,
+				34FFBD261A0324D50028BF47 /* Supporting Files */,
+			);
+			path = WoWPluginBoxTests;
+			sourceTree = "<group>";
+		};
+		34FFBD261A0324D50028BF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD271A0324D50028BF47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FFBD321A03289F0028BF47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34B4E1B31A18965A007318FE /* Views */,
+				345DE3A81A178FED0059FED3 /* Controllers */,
+				341B44FC1A15A72000EA96A8 /* WindowControllers */,
+				345DE3881A171F1A0059FED3 /* ViewControllers */,
+				34FFBDE61A033E370028BF47 /* Entities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34FFBD431A0336C40028BF47 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				34AFD94C1A1BA2960035BDE2 /* MBProgressHUD.h */,
+				34AFD94D1A1BA2960035BDE2 /* MBProgressHUD.m */,
+				34B848DD1A104F2C003A09B3 /* Ping */,
+				34FFBD4D1A0336C40028BF47 /* DownManager */,
+				34FFBD4E1A0336C40028BF47 /* LZMASDK */,
+				34AFD9531A1BA7890035BDE2 /* MBProgressHUD+Extend.h */,
+				34AFD9541A1BA7890035BDE2 /* MBProgressHUD+Extend.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		34FFBD4D1A0336C40028BF47 /* DownManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DownManager;
+			sourceTree = "<group>";
+		};
+		34FFBD4E1A0336C40028BF47 /* LZMASDK */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD4F1A0336C40028BF47 /* 7z.h */,
+				34FFBD501A0336C40028BF47 /* 7zBuf.c */,
+				34FFBD511A0336C40028BF47 /* 7zBuf.h */,
+				34FFBD521A0336C40028BF47 /* 7zBuf2.c */,
+				34FFBD531A0336C40028BF47 /* 7zDec.c */,
+				34FFBD541A0336C40028BF47 /* 7zFile.c */,
+				34FFBD551A0336C40028BF47 /* 7zFile.h */,
+				34FFBD561A0336C40028BF47 /* 7zIn.c */,
+				34FFBD571A0336C40028BF47 /* 7zStream.c */,
+				34FFBD581A0336C40028BF47 /* 7zVersion.h */,
+				34FFBD591A0336C40028BF47 /* Alloc.c */,
+				34FFBD5A1A0336C40028BF47 /* Alloc.h */,
+				34FFBD5B1A0336C40028BF47 /* CpuArch.c */,
+				34FFBD5C1A0336C40028BF47 /* CpuArch.h */,
+				34FFBD5D1A0336C40028BF47 /* Delta.c */,
+				34FFBD5E1A0336C40028BF47 /* Delta.h */,
+				34FFBD5F1A0336C40028BF47 /* LzHash.h */,
+				34FFBD601A0336C40028BF47 /* Lzma2Dec.c */,
+				34FFBD611A0336C40028BF47 /* Lzma2Dec.h */,
+				34FFBD621A0336C40028BF47 /* LzmaDec.c */,
+				34FFBD631A0336C40028BF47 /* LzmaDec.h */,
+				34FFBD641A0336C40028BF47 /* LZMAExtractor.h */,
+				34FFBD651A0336C40028BF47 /* LZMAExtractor.m */,
+				34FFBD661A0336C40028BF47 /* Ppmd.h */,
+				34FFBD671A0336C40028BF47 /* Ppmd7.c */,
+				34FFBD681A0336C40028BF47 /* Ppmd7.h */,
+				34FFBD691A0336C40028BF47 /* Ppmd7Dec.c */,
+				34FFBD6A1A0336C40028BF47 /* Ppmd8.c */,
+				34FFBD6B1A0336C40028BF47 /* Ppmd8.h */,
+				34FFBD6C1A0336C40028BF47 /* Ppmd8Dec.c */,
+				34FFBD6D1A0336C40028BF47 /* RotateDefs.h */,
+				34FFBD6E1A0336C40028BF47 /* Types.h */,
+				34FFBD6F1A0336C40028BF47 /* Util */,
+			);
+			path = LZMASDK;
+			sourceTree = "<group>";
+		};
+		34FFBD6F1A0336C40028BF47 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD701A0336C40028BF47 /* 7z */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		34FFBD701A0336C40028BF47 /* 7z */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD711A0336C40028BF47 /* 7zAlloc.c */,
+				34FFBD721A0336C40028BF47 /* 7zAlloc.h */,
+				34FFBD731A0336C40028BF47 /* 7zMain.c */,
+			);
+			path = 7z;
+			sourceTree = "<group>";
+		};
+		34FFBD741A0336C40028BF47 /* Oxygen2 */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD751A0336C40028BF47 /* Extends */,
+				34FFBD921A0336C40028BF47 /* OFBases */,
+				34FFBD931A0336C40028BF47 /* OFClasses */,
+				34FFBD9B1A0336C40028BF47 /* OFComponents */,
+				34FFBD9D1A0336C40028BF47 /* OFMacro.h */,
+				34FFBD9E1A0336C40028BF47 /* Oxygen2-Prefix.pch */,
+				34FFBD9F1A0336C40028BF47 /* Oxygen2.h */,
+				34FFBDA01A0336C40028BF47 /* Oxygen2.m */,
+				34FFBDA41A0336C40028BF47 /* ThirdParts */,
+			);
+			path = Oxygen2;
+			sourceTree = "<group>";
+		};
+		34FFBD751A0336C40028BF47 /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD761A0336C40028BF47 /* ObjectExtends */,
+				34FFBD891A0336C40028BF47 /* PodsExtends */,
+				34FFBD911A0336C40028BF47 /* UIComponentExtends */,
+			);
+			path = Extends;
+			sourceTree = "<group>";
+		};
+		34FFBD761A0336C40028BF47 /* ObjectExtends */ = {
+			isa = PBXGroup;
+			children = (
+				345DE3A21A1786BB0059FED3 /* NSImage+Stretchable.h */,
+				345DE3A31A1786BB0059FED3 /* NSImage+Stretchable.m */,
+				34FFBD771A0336C40028BF47 /* NSAlert+Oxygen.h */,
+				34FFBD781A0336C40028BF47 /* NSAlert+Oxygen.m */,
+				34FFBD791A0336C40028BF47 /* NSColor+Oxygen.h */,
+				34FFBD7A1A0336C40028BF47 /* NSColor+Oxygen.m */,
+				34FFBD7B1A0336C40028BF47 /* NSData+Oxygen.h */,
+				34FFBD7C1A0336C40028BF47 /* NSData+Oxygen.m */,
+				34FFBD7D1A0336C40028BF47 /* NSDate+Oxygen.h */,
+				34FFBD7E1A0336C40028BF47 /* NSDate+Oxygen.m */,
+				34FFBD7F1A0336C40028BF47 /* NSDictionary+Oxygen.h */,
+				34FFBD801A0336C40028BF47 /* NSDictionary+Oxygen.m */,
+				34FFBD811A0336C40028BF47 /* NSNumber+Oxygen.h */,
+				34FFBD821A0336C40028BF47 /* NSNumber+Oxygen.m */,
+				34FFBD831A0336C40028BF47 /* NSObject+Oxygen.h */,
+				34FFBD841A0336C40028BF47 /* NSObject+Oxygen.m */,
+				34FFBD851A0336C40028BF47 /* NSString+Oxygen.h */,
+				34FFBD861A0336C40028BF47 /* NSString+Oxygen.m */,
+				34FFBD871A0336C40028BF47 /* NSURL+Oxygen.h */,
+				34FFBD881A0336C40028BF47 /* NSURL+Oxygen.m */,
+				345DE3A51A178D500059FED3 /* NSButton+Oxygen.h */,
+				345DE3A61A178D500059FED3 /* NSButton+Oxygen.m */,
+			);
+			path = ObjectExtends;
+			sourceTree = "<group>";
+		};
+		34FFBD891A0336C40028BF47 /* PodsExtends */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD8A1A0336C40028BF47 /* ActionSheetPicker */,
+				34FFBD8B1A0336C40028BF47 /* ASIHttpRequest */,
+				34FFBD901A0336C40028BF47 /* UIComponentExtends */,
+			);
+			path = PodsExtends;
+			sourceTree = "<group>";
+		};
+		34FFBD8A1A0336C40028BF47 /* ActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		34FFBD8B1A0336C40028BF47 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD8C1A0336C40028BF47 /* HttpRequestManager.h */,
+				34FFBD8D1A0336C40028BF47 /* HttpRequestManager.m */,
+				34FFBD8E1A0336C40028BF47 /* NSObject+HTTPRequest.h */,
+				34FFBD8F1A0336C40028BF47 /* NSObject+HTTPRequest.m */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		34FFBD901A0336C40028BF47 /* UIComponentExtends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponentExtends;
+			sourceTree = "<group>";
+		};
+		34FFBD911A0336C40028BF47 /* UIComponentExtends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponentExtends;
+			sourceTree = "<group>";
+		};
+		34FFBD921A0336C40028BF47 /* OFBases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OFBases;
+			sourceTree = "<group>";
+		};
+		34FFBD931A0336C40028BF47 /* OFClasses */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD991A0336C40028BF47 /* OFMutableDictionary.h */,
+				34FFBD9A1A0336C40028BF47 /* OFMutableDictionary.m */,
+			);
+			path = OFClasses;
+			sourceTree = "<group>";
+		};
+		34FFBD9B1A0336C40028BF47 /* OFComponents */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBD9C1A0336C40028BF47 /* Map */,
+			);
+			path = OFComponents;
+			sourceTree = "<group>";
+		};
+		34FFBD9C1A0336C40028BF47 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		34FFBDA41A0336C40028BF47 /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBDA51A0336C40028BF47 /* UIComponents */,
+				34FFBDA81A0336C40028BF47 /* Utils */,
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		34FFBDA51A0336C40028BF47 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBDA61A0336C40028BF47 /* MJRefresh */,
+				34FFBDA71A0336C40028BF47 /* StrapButton */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		34FFBDA61A0336C40028BF47 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		34FFBDA71A0336C40028BF47 /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
+		34FFBDA81A0336C40028BF47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBDA91A0336C40028BF47 /* GTMBase64.h */,
+				34FFBDAA1A0336C40028BF47 /* GTMBase64.m */,
+				34FFBDAB1A0336C40028BF47 /* JZLocationConverter.h */,
+				34FFBDAC1A0336C40028BF47 /* JZLocationConverter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		34FFBDE61A033E370028BF47 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBDE71A033E370028BF47 /* BaseJSONModel.h */,
+				34FFBDE81A033E370028BF47 /* BaseJSONModel.m */,
+				34FFBDE91A033E370028BF47 /* BigFoot */,
+				34FFBDEA1A033E370028BF47 /* MonomerPlugin */,
+				34FFBDEB1A033E370028BF47 /* Pandora */,
+				3417A0411A0CCB6600397158 /* Eui */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		34FFBDE91A033E370028BF47 /* BigFoot */ = {
+			isa = PBXGroup;
+			children = (
+				3405B65C1A03946C00E9BFA2 /* BigFootFileList.h */,
+				3405B65D1A03946C00E9BFA2 /* BigFootFileList.m */,
+			);
+			path = BigFoot;
+			sourceTree = "<group>";
+		};
+		34FFBDEA1A033E370028BF47 /* MonomerPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				3464CFDD1A07297D0051130B /* MoGuPluginList.h */,
+				3464CFDE1A07297D0051130B /* MoGuPluginList.m */,
+			);
+			path = MonomerPlugin;
+			sourceTree = "<group>";
+		};
+		34FFBDEB1A033E370028BF47 /* Pandora */ = {
+			isa = PBXGroup;
+			children = (
+				34FFBDEC1A033E370028BF47 /* AddonsUpdater.h */,
+				34FFBDED1A033E370028BF47 /* AddonsUpdater.m */,
+				34FFBDEE1A033E370028BF47 /* PluginCrcList.h */,
+				34FFBDEF1A033E370028BF47 /* PluginCrcList.m */,
+				34FFBDF01A033E370028BF47 /* PluginList.h */,
+				34FFBDF11A033E370028BF47 /* PluginList.m */,
+			);
+			path = Pandora;
+			sourceTree = "<group>";
+		};
+		6A3692D9A6E5A1E19D5948F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1B3221BBF2FF1867B9C530 /* Pods.debug.xcconfig */,
+				524B7A4AFF94462FD04EBC4E /* Pods.release.xcconfig */,
+				778ACD54A75D2A15CDDDAA58 /* Pods-WoWPluginBox.debug.xcconfig */,
+				33D7E4B0B6F85A5B108F23D0 /* Pods-WoWPluginBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FFBD0E1A0324D50028BF47 /* WoWPluginBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FFBD2C1A0324D50028BF47 /* Build configuration list for PBXNativeTarget "WoWPluginBox" */;
+			buildPhases = (
+				D9BAD1892033ABD0BC782430 /* [CP] Check Pods Manifest.lock */,
+				F09B99FE35AF83D1459CDD38 /* Check Pods Manifest.lock */,
+				34FFBD0B1A0324D50028BF47 /* Sources */,
+				34FFBD0C1A0324D50028BF47 /* Frameworks */,
+				34FFBD0D1A0324D50028BF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoWPluginBox;
+			productName = WoWPluginBox;
+			productReference = 34FFBD0F1A0324D50028BF47 /* WoWPluginBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FFBD211A0324D50028BF47 /* WoWPluginBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FFBD2F1A0324D50028BF47 /* Build configuration list for PBXNativeTarget "WoWPluginBoxTests" */;
+			buildPhases = (
+				34FFBD1E1A0324D50028BF47 /* Sources */,
+				34FFBD1F1A0324D50028BF47 /* Frameworks */,
+				34FFBD201A0324D50028BF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FFBD241A0324D50028BF47 /* PBXTargetDependency */,
+			);
+			name = WoWPluginBoxTests;
+			productName = WoWPluginBoxTests;
+			productReference = 34FFBD221A0324D50028BF47 /* WoWPluginBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FFBD071A0324D50028BF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "黄 时欣";
+				TargetAttributes = {
+					34FFBD0E1A0324D50028BF47 = {
+						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					34FFBD211A0324D50028BF47 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 34FFBD0E1A0324D50028BF47;
+					};
+				};
+			};
+			buildConfigurationList = 34FFBD0A1A0324D50028BF47 /* Build configuration list for PBXProject "WoWPluginBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 34FFBD061A0324D50028BF47;
+			productRefGroup = 34FFBD101A0324D50028BF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FFBD0E1A0324D50028BF47 /* WoWPluginBox */,
+				34FFBD211A0324D50028BF47 /* WoWPluginBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FFBD0D1A0324D50028BF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345DE3621A1662640059FED3 /* radiobutton_checked_pressed.png in Resources */,
+				345DE3A11A1724DE0059FED3 /* LocalViewController.xib in Resources */,
+				345DE3921A1724A70059FED3 /* BigfootViewController.xib in Resources */,
+				345DE3711A1667750059FED3 /* radio_checked.png in Resources */,
+				345DE3821A1711180059FED3 /* ic_wowbox_n.png in Resources */,
+				34AFD9521A1BA4810035BDE2 /* success@2x.png in Resources */,
+				341B450B1A15A7D900EA96A8 /* PreferencesController.xib in Resources */,
+				341B45011A15A73600EA96A8 /* UpdateWindowController.xib in Resources */,
+				345DE32E1A1662640059FED3 /* btn_primary_disabled_offline_connect.png in Resources */,
+				345DE34F1A1662640059FED3 /* checkbox_checked_disabled.png in Resources */,
+				34FFBD1A1A0324D50028BF47 /* Images.xcassets in Resources */,
+				345DE3321A1662640059FED3 /* btn_primary_pressed.png in Resources */,
+				345DE3BF1A1892890059FED3 /* c_6.png in Resources */,
+				345DE3681A1662640059FED3 /* toast_base_hover.png in Resources */,
+				345DE32F1A1662640059FED3 /* btn_primary_disabled.png in Resources */,
+				345DE37D1A1711180059FED3 /* ic_bigfoot_p.png in Resources */,
+				345DE37C1A1711180059FED3 /* ic_bigfoot_n.png in Resources */,
+				345DE3C01A1892890059FED3 /* c_1.png in Resources */,
+				345DE39C1A1724CB0059FED3 /* MoguViewController.xib in Resources */,
+				34AFD9571A1BAE9B0035BDE2 /* failed.png in Resources */,
+				345DE3311A1662640059FED3 /* btn_primary_normal.png in Resources */,
+				345DE37E1A1711180059FED3 /* ic_eui_n.png in Resources */,
+				345DE3651A1662640059FED3 /* radiobutton_unchecked_hover.png in Resources */,
+				345DE3351A1662640059FED3 /* btn_secondary_normal.png in Resources */,
+				345DE3861A171E180059FED3 /* ic_local_n.png in Resources */,
+				345DE3871A171E180059FED3 /* ic_local_p.png in Resources */,
+				345DE3671A1662640059FED3 /* radiobutton_unchecked.png in Resources */,
+				345DE3691A1662640059FED3 /* toast_base.png in Resources */,
+				34AFD9511A1BA4810035BDE2 /* success.png in Resources */,
+				345DE3511A1662640059FED3 /* checkbox_checked_pressed.png in Resources */,
+				345DE3631A1662640059FED3 /* radiobutton_checked.png in Resources */,
+				3430CDF91A18F5CE004727BE /* Podfile in Resources */,
+				345DE3831A1711180059FED3 /* ic_wowbox_p.png in Resources */,
+				345DE3C21A1892890059FED3 /* c_2.png in Resources */,
+				345DE38D1A171F5C0059FED3 /* WowBoxViewController.xib in Resources */,
+				345DE3801A1711180059FED3 /* ic_mogu_n.png in Resources */,
+				345DE3541A1662640059FED3 /* checkbox_unchecked_disabled.png in Resources */,
+				345DE3BE1A1892890059FED3 /* c_0.png in Resources */,
+				345DE3561A1662640059FED3 /* checkbox_unchecked_pressed.png in Resources */,
+				345DE3551A1662640059FED3 /* checkbox_unchecked_hover.png in Resources */,
+				345DE3641A1662640059FED3 /* radiobutton_unchecked_disabled.png in Resources */,
+				345DE3C11A1892890059FED3 /* c_3.png in Resources */,
+				345DE3971A1724B80059FED3 /* EuiViewController.xib in Resources */,
+				345DE3611A1662640059FED3 /* radiobutton_checked_hover.png in Resources */,
+				345DE3C41A1892890059FED3 /* c_5.png in Resources */,
+				345DE3C31A1892890059FED3 /* c_8.png in Resources */,
+				345DE2E71A165F450059FED3 /* background_wow_wod.jpg in Resources */,
+				345DE3BC1A1892890059FED3 /* c_9.png in Resources */,
+				345DE3C51A1892890059FED3 /* c_7.png in Resources */,
+				345DE3811A1711180059FED3 /* ic_mogu_p.png in Resources */,
+				345DE3661A1662640059FED3 /* radiobutton_unchecked_pressed.png in Resources */,
+				345DE2E21A1647400059FED3 /* RootWindowController.xib in Resources */,
+				345DE3341A1662640059FED3 /* btn_secondary_hover.png in Resources */,
+				345DE3721A1667750059FED3 /* radio_mouse_on.png in Resources */,
+				345DE3301A1662640059FED3 /* btn_primary_hover.png in Resources */,
+				345DE3731A1667750059FED3 /* radio_unchecked.png in Resources */,
+				345DE3601A1662640059FED3 /* radiobutton_checked_disabled.png in Resources */,
+				34AFD9451A1B361C0035BDE2 /* EuiSettingController.xib in Resources */,
+				345DE3531A1662640059FED3 /* checkbox_checked.png in Resources */,
+				345DE3361A1662640059FED3 /* btn_secondary_pressed.png in Resources */,
+				345DE3521A1662640059FED3 /* checkbox_checked_required.png in Resources */,
+				34FFBD1D1A0324D50028BF47 /* MainMenu.xib in Resources */,
+				345DE3331A1662640059FED3 /* btn_secondary_disabled.png in Resources */,
+				345DE3501A1662640059FED3 /* checkbox_checked_hover.png in Resources */,
+				345DE37F1A1711180059FED3 /* ic_eui_p.png in Resources */,
+				345DE3BD1A1892890059FED3 /* c_4.png in Resources */,
+				345DE3571A1662640059FED3 /* checkbox_unchecked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFBD201A0324D50028BF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9BAD1892033ABD0BC782430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoWPluginBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09B99FE35AF83D1459CDD38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FFBD0B1A0324D50028BF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFBDC91A0336C40028BF47 /* NSData+Oxygen.m in Sources */,
+				34FFBDB51A0336C40028BF47 /* 7zBuf.c in Sources */,
+				34AFD95A1A1C218C0035BDE2 /* OFFileManager.m in Sources */,
+				34FFBDC71A0336C40028BF47 /* NSAlert+Oxygen.m in Sources */,
+				34FFBDD11A0336C40028BF47 /* NSObject+HTTPRequest.m in Sources */,
+				34B4E1BB1A189EB7007318FE /* WowBoxPluginItemCell.m in Sources */,
+				34AFD9481A1B50DD0035BDE2 /* EuiOtherPluginCell.m in Sources */,
+				34FFBDBC1A0336C40028BF47 /* CpuArch.c in Sources */,
+				345DE39B1A1724CB0059FED3 /* MoguViewController.m in Sources */,
+				34FFBDC41A0336C40028BF47 /* Ppmd8Dec.c in Sources */,
+				34AFD95D1A1C250F0035BDE2 /* LocalPluginCell.m in Sources */,
+				34B848E31A104F35003A09B3 /* SimplePingHelper.m in Sources */,
+				34475C811A133DA700E74868 /* EuiFileList.m in Sources */,
+				34FFBDC61A0336C40028BF47 /* 7zMain.c in Sources */,
+				345DE3A41A1786BB0059FED3 /* NSImage+Stretchable.m in Sources */,
+				3417A0441A0CCB7900397158 /* EuiXml.m in Sources */,
+				3405B65E1A03946C00E9BFA2 /* BigFootFileList.m in Sources */,
+				34FFBDF41A033E370028BF47 /* PluginCrcList.m in Sources */,
+				34FFBDBB1A0336C40028BF47 /* Alloc.c in Sources */,
+				34FFBDB81A0336C40028BF47 /* 7zFile.c in Sources */,
+				34FFBDCF1A0336C40028BF47 /* NSURL+Oxygen.m in Sources */,
+				34B4E1B61A189E7C007318FE /* WowBoxPluginCategoryCell.m in Sources */,
+				34B848E61A10522D003A09B3 /* PBPinger.m in Sources */,
+				34FFBDF51A033E370028BF47 /* PluginList.m in Sources */,
+				34AFD9441A1B361C0035BDE2 /* EuiSettingController.m in Sources */,
+				34FFBDC11A0336C40028BF47 /* Ppmd7.c in Sources */,
+				34FFBDCA1A0336C40028BF47 /* NSDate+Oxygen.m in Sources */,
+				34FFBDCB1A0336C40028BF47 /* NSDictionary+Oxygen.m in Sources */,
+				34FFBDCE1A0336C40028BF47 /* NSString+Oxygen.m in Sources */,
+				345DE3A01A1724DE0059FED3 /* LocalViewController.m in Sources */,
+				3464CFDF1A07297D0051130B /* MoGuPluginList.m in Sources */,
+				34AFD9551A1BA7890035BDE2 /* MBProgressHUD+Extend.m in Sources */,
+				345DE3AB1A1792990059FED3 /* FileInfoCollecter.m in Sources */,
+				34FFBD181A0324D50028BF47 /* AppDelegate.mm in Sources */,
+				34FFBDC31A0336C40028BF47 /* Ppmd8.c in Sources */,
+				34FFBDF21A033E370028BF47 /* BaseJSONModel.m in Sources */,
+				341B45001A15A73600EA96A8 /* UpdateWindowController.m in Sources */,
+				34FFBDC01A0336C40028BF47 /* LZMAExtractor.m in Sources */,
+				345DE3911A1724A70059FED3 /* BigfootViewController.m in Sources */,
+				345DE3961A1724B80059FED3 /* EuiViewController.m in Sources */,
+				34FFBDC21A0336C40028BF47 /* Ppmd7Dec.c in Sources */,
+				34FFBDF31A033E370028BF47 /* AddonsUpdater.m in Sources */,
+				34FFBDC81A0336C40028BF47 /* NSColor+Oxygen.m in Sources */,
+				34FFBDB91A0336C40028BF47 /* 7zIn.c in Sources */,
+				34FFBDD51A0336C40028BF47 /* Oxygen2.m in Sources */,
+				34AFD94B1A1B9DB00035BDE2 /* PluginCell.m in Sources */,
+				345DE3B11A17ABF70059FED3 /* BaseViewController.m in Sources */,
+				34FFBDBF1A0336C40028BF47 /* LzmaDec.c in Sources */,
+				345DE38C1A171F5C0059FED3 /* WowBoxViewController.m in Sources */,
+				34FFBD151A0324D50028BF47 /* main.m in Sources */,
+				34FFBDD81A0336C40028BF47 /* JZLocationConverter.m in Sources */,
+				34D8C8241A1985DA003A66EE /* FileUpdater.m in Sources */,
+				34FFBDBE1A0336C40028BF47 /* Lzma2Dec.c in Sources */,
+				34FFBDBD1A0336C40028BF47 /* Delta.c in Sources */,
+				34FFBDB61A0336C40028BF47 /* 7zBuf2.c in Sources */,
+				34FFBDB71A0336C40028BF47 /* 7zDec.c in Sources */,
+				345DE3A71A178D500059FED3 /* NSButton+Oxygen.m in Sources */,
+				34FFBDD41A0336C40028BF47 /* OFMutableDictionary.m in Sources */,
+				345DE2E11A1647400059FED3 /* RootWindowController.m in Sources */,
+				34FFBDD01A0336C40028BF47 /* HttpRequestManager.m in Sources */,
+				34FFBDC51A0336C40028BF47 /* 7zAlloc.c in Sources */,
+				34B848E21A104F35003A09B3 /* SimplePing.m in Sources */,
+				341B450A1A15A7D900EA96A8 /* PreferencesController.m in Sources */,
+				34AFD94E1A1BA2960035BDE2 /* MBProgressHUD.m in Sources */,
+				34FFBDCC1A0336C40028BF47 /* NSNumber+Oxygen.m in Sources */,
+				34FFBDBA1A0336C40028BF47 /* 7zStream.c in Sources */,
+				34FFBDCD1A0336C40028BF47 /* NSObject+Oxygen.m in Sources */,
+				34FFBDD71A0336C40028BF47 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFBD1E1A0324D50028BF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFBD291A0324D50028BF47 /* WoWPluginBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FFBD241A0324D50028BF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FFBD0E1A0324D50028BF47 /* WoWPluginBox */;
+			targetProxy = 34FFBD231A0324D50028BF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FFBD1B1A0324D50028BF47 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FFBD1C1A0324D50028BF47 /* Base */,
+				34FFBD421A0335C50028BF47 /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FFBD2A1A0324D50028BF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34FFBD2B1A0324D50028BF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		34FFBD2D1A0324D50028BF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778ACD54A75D2A15CDDDAA58 /* Pods-WoWPluginBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WoWPluginBox/Prefix.pch;
+				INFOPLIST_FILE = WoWPluginBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WoWPluginBox/Libs/UMAnalytics_Sdk_3.1.8",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34FFBD2E1A0324D50028BF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D7E4B0B6F85A5B108F23D0 /* Pods-WoWPluginBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WoWPluginBox/Prefix.pch;
+				INFOPLIST_FILE = WoWPluginBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WoWPluginBox/Libs/UMAnalytics_Sdk_3.1.8",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34FFBD301A0324D50028BF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoWPluginBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWPluginBox.app/Contents/MacOS/WoWPluginBox";
+			};
+			name = Debug;
+		};
+		34FFBD311A0324D50028BF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoWPluginBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWPluginBox.app/Contents/MacOS/WoWPluginBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FFBD0A1A0324D50028BF47 /* Build configuration list for PBXProject "WoWPluginBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFBD2A1A0324D50028BF47 /* Debug */,
+				34FFBD2B1A0324D50028BF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FFBD2C1A0324D50028BF47 /* Build configuration list for PBXNativeTarget "WoWPluginBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFBD2D1A0324D50028BF47 /* Debug */,
+				34FFBD2E1A0324D50028BF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FFBD2F1A0324D50028BF47 /* Build configuration list for PBXNativeTarget "WoWPluginBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFBD301A0324D50028BF47 /* Debug */,
+				34FFBD311A0324D50028BF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FFBD071A0324D50028BF47 /* Project object */;
+}

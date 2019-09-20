@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6245"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LocalViewController">
+            <connections>
+                <outlet property="btnBackup" destination="i5X-tI-LKC" id="0Sj-jb-qPE"/>
+                <outlet property="btnDelete" destination="9nr-kJ-iIM" id="91T-OX-ZTq"/>
+                <outlet property="btnDeleteBackups" destination="ARR-2t-mf7" id="ZE8-z0-mxC"/>
+                <outlet property="btnSelectAll" destination="pZx-TN-O8d" id="KIZ-uP-hxH"/>
+                <outlet property="pluginTable" destination="Htp-Cw-fqC" id="WbJ-cZ-U46"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="792" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pZx-TN-O8d">
+                    <rect key="frame" x="24" y="566" width="229" height="20"/>
+                    <buttonCell key="cell" type="bevel" title="全选" bezelStyle="regularSquare" image="checkbox_unchecked" imagePosition="left" alternateImage="checkbox_checked" state="on" inset="2" id="8fs-Gq-RHK">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onBtnAction:" target="-2" id="iV9-Tz-WTQ"/>
+                    </connections>
+                </button>
+                <scrollView fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="102" horizontalPageScroll="10" verticalLineScroll="102" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R98-Ae-no5">
+                    <rect key="frame" x="20" y="75" width="752" height="483"/>
+                    <clipView key="contentView" ambiguous="YES" misplaced="YES" drawsBackground="NO" copiesOnScroll="NO" id="Hf7-PZ-Duw">
+                        <rect key="frame" x="1" y="17" width="238" height="117"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="100" rowSizeStyle="automatic" viewBased="YES" id="Htp-Cw-fqC">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <size key="intercellSpacing" width="3" height="2"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn width="749" minWidth="40" maxWidth="1000" id="1Ku-IM-I0h">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="ixt-02-Zp3">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <prototypeCellViews>
+                                            <tableCellView id="mCU-Zv-lSg" customClass="LocalPluginCell">
+                                                <rect key="frame" x="1" y="1" width="749" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTB-im-HuD">
+                                                        <rect key="frame" x="3" y="72" width="20" height="20"/>
+                                                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="checkbox_unchecked" imagePosition="left" alternateImage="checkbox_checked" state="on" inset="2" id="M2x-pW-Sgu">
+                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                            <font key="font" metaFont="system"/>
+                                                        </buttonCell>
+                                                        <connections>
+                                                            <action selector="onBtnAction:" target="mCU-Zv-lSg" id="8mx-Cb-eWo"/>
+                                                        </connections>
+                                                    </button>
+                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="84j-W4-v3R">
+                                                        <rect key="frame" x="34" y="74" width="594" height="17"/>
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="y7y-0J-vAc">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QTW-i3-IRO">
+                                                        <rect key="frame" x="644" y="67" width="68" height="30"/>
+                                                        <buttonCell key="cell" type="smallSquare" title="卸载" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="UEe-hb-0cm">
+                                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                            <font key="font" metaFont="system"/>
+                                                        </buttonCell>
+                                                        <connections>
+                                                            <action selector="onBtnAction:" target="mCU-Zv-lSg" id="8ax-x2-RsP"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <connections>
+                                                    <outlet property="button" destination="QTW-i3-IRO" id="YLF-8L-Jcb"/>
+                                                    <outlet property="check" destination="wTB-im-HuD" id="T1q-eA-uo6"/>
+                                                    <outlet property="ignore" destination="wTB-im-HuD" id="l66-mY-b0q"/>
+                                                    <outlet property="name" destination="84j-W4-v3R" id="odG-J0-Ahe"/>
+                                                </connections>
+                                            </tableCellView>
+                                        </prototypeCellViews>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="Os2-aD-ECK"/>
+                                    <outlet property="delegate" destination="-2" id="sQA-0U-dIu"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="Veq-0C-aVz">
+                        <rect key="frame" x="1" y="118.88196009397507" width="238" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="qeq-SG-zE1">
+                        <rect key="frame" x="224" y="17" width="15" height="102"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i5X-tI-LKC">
+                    <rect key="frame" x="20" y="20" width="120" height="40"/>
+                    <buttonCell key="cell" type="smallSquare" title="备份所选插件" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="iTS-Kx-1tr">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onBtnAction:" target="-2" id="PNS-nW-lpV"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9nr-kJ-iIM">
+                    <rect key="frame" x="148" y="20" width="120" height="40"/>
+                    <buttonCell key="cell" type="smallSquare" title="删除所选插件" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="NNf-dK-W9y">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onBtnAction:" target="-2" id="p6w-c7-0Ut"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARR-2t-mf7">
+                    <rect key="frame" x="276" y="20" width="120" height="40"/>
+                    <buttonCell key="cell" type="smallSquare" title="删除所备份" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="0tc-hk-7J4">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onBtnAction:" target="-2" id="u6N-bi-exr"/>
+                    </connections>
+                </button>
+            </subviews>
+        </customView>
+    </objects>
+    <resources>
+        <image name="checkbox_checked" width="20" height="20"/>
+        <image name="checkbox_unchecked" width="20" height="20"/>
+    </resources>
+</document>

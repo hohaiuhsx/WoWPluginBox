@@ -11,6 +11,7 @@
 @class EuiXml_Status;
 @class EuiXml_AddOns;
 @class EuiXml_App;
+@class EuiXml_ClassAddOns;
 @class EuiXml_OtherAddOns;
 @class EuiXml_AAItem;
 @class EuiXml_Module;
@@ -25,6 +26,7 @@
 @property (nonatomic,strong) EuiXml_Status *Status;
 @property (nonatomic,strong) EuiXml_AddOns *AddOns;
 @property (nonatomic,strong) EuiXml_App *App;
+@property (nonatomic,strong) EuiXml_ClassAddOns *ClassAddOns;
 @property (nonatomic,strong) EuiXml_OtherAddOns *OtherAddOns;
 @property (nonatomic,strong) EuiXml_Module *Module;
 @property (nonatomic,strong) EuiXml_Server *Server;
@@ -69,6 +71,12 @@
 /**
  *  EuiXml_AItem
  */
+@property (nonatomic,strong) NSArray<EuiXml_AItem> *A;
+
+@end
+
+@interface EuiXml_ClassAddOns : BaseJSONModel
+
 @property (nonatomic,strong) NSArray<EuiXml_AItem> *A;
 
 @end

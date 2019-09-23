@@ -49,6 +49,10 @@
 
 @end
 
+@implementation EuiXml_ClassAddOns
+
+@end
+
 @implementation EuiXml_AItem
 
 - (NSString *)toString

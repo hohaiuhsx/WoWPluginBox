@@ -175,6 +175,9 @@
 		if (item.isFileNeedReDownload) {
 			//下载
 			[OFFileManager removeItemAtPath:item.rawSavePath];
+            //添加随机参数 防止服务端缓存
+            item.url = [NSURL URLWithString:[NSString stringWithFormat:item.url.query?@"%@&random=%ld":@"%@?random=%ld",item.url,random()]];
+            //NSLog(@"file url: %@",item.url);
 			ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:item.url];
 			[OFFileManager createDirectoriesForFileAtPath:item.rawSavePath];
 			[request setDownloadDestinationPath:item.rawSavePath];

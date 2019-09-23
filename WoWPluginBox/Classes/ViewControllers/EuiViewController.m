@@ -57,6 +57,11 @@
 - (void)onSettingChanged:(NSNotification *)notification
 {
 	self.settingInfo = strFormat(@"线路:%@  版本:%@", self.lineName, self.editionName);
+    [self.pluginTable reloadData];
+}
+
+- (NSArray<EuiXml_AItem> *)addOns{
+    return [@"怀旧服版" isEqualToString:self.editionName]?self.xml.ClassAddOns.A:self.xml.OtherAddOns.A;
 }
 
 - (void)onWowPathChanged:(NSNotification *)notification
@@ -101,7 +106,7 @@
 			return @"PTR服专用版";
 
 		case 3:
-			return @"Beta服版";
+			return @"怀旧服版";
 
 		default:
 			return @"";
@@ -236,7 +241,7 @@
 		NSInteger conflict = 0;
 		NSURL *baseUrl = [NSURL URLWithString:[[self currentUrl] stringByAppendingString:@"Interface/AddOns/"]];
 
-		for (EuiXml_AItem * item in self.xml.OtherAddOns.A) {
+		for (EuiXml_AItem * item in [self addOns]) {
 			if (collecter.collections[item.name]) {
 				item.installed = YES;
 			}
@@ -362,19 +367,19 @@
 #pragma mark - NSTableViewDelegate,NSTableViewDataSource
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
 {
-	return self.xml.OtherAddOns.A.count;
+	return [self addOns].count;
 }
 
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
-	EuiXml_AItem *item = self.xml.OtherAddOns.A[row];
+	EuiXml_AItem *item = [self addOns][row];
 
 	return item;
 }
 
 - (CGFloat)tableView:(NSTableView *)tableView heightOfRow:(NSInteger)row
 {
-	EuiXml_AItem *item = self.xml.OtherAddOns.A[row];
+	EuiXml_AItem *item = [self addOns][row];
 
 	return item.heightForCell;
 }

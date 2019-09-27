@@ -17,6 +17,7 @@
 #import "EuiXml.h"
 #import "EuiFileList.h"
 #import "EuiSettingController.h"
+#import <WebKit/WebKit.h>
 
 @interface EuiViewController () <NSTableViewDelegate, NSTableViewDataSource>
 {
@@ -26,6 +27,8 @@
 @property (weak) IBOutlet NSProgressIndicator	*progress;
 @property (weak) IBOutlet NSTableView			*pluginTable;
 @property (weak) IBOutlet NSButton				*btnSetting;
+@property (weak) IBOutlet WebView               *updateHisWeb;
+@property (weak) IBOutlet NSButton              *updateHisButton;
 
 @property (nonatomic, copy) NSString	*tip;
 @property (nonatomic, copy) NSString	*settingInfo;
@@ -58,6 +61,10 @@
 {
 	self.settingInfo = strFormat(@"线路:%@  版本:%@", self.lineName, self.editionName);
     [self.pluginTable reloadData];
+    NSString *updateHisUrl =[@"怀旧服版" isEqualToString:self.editionName]?
+        @"http://www.eui.cc/eui_update_v6_classic.html":
+        @"http://www.eui.cc/eui_update_v6.html";
+    [[self.updateHisWeb mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:updateHisUrl]]];
 }
 
 - (NSArray<EuiXml_AItem> *)addOns{
@@ -162,7 +169,9 @@
 				self.settingController = [EuiSettingController showWithEuixml:self.xml sender:self];
 			}
 		}
-	}
+    } else if (sender == _updateHisButton){
+        [self.updateHisWeb setHidden:!self.updateHisWeb.hidden];
+    }
 }
 
 #pragma mark - request

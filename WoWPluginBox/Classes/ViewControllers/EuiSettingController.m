@@ -38,6 +38,11 @@
 
 - (void)windowDidLoad
 {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger line = [defaults integerForKey:kU_EUI_LINE];
+    NSInteger edition = [defaults integerForKey:KU_EUI_EDITION];
+    [self.line selectItemAtIndex:line];
+    [self.edition selectItemAtIndex:edition];
 	[self pingInBackground];
 	[self checkFont];
 }

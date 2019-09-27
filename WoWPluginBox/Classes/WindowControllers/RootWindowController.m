@@ -39,7 +39,8 @@
 	[super windowDidLoad];
 	currentSelected = NSNotFound;
 
-	NSInteger index = [[NSUserDefaults standardUserDefaults] integerForKey:kU_TAB_INDEX];
+    //默认EUI
+    NSInteger index = 2;//[[NSUserDefaults standardUserDefaults] integerForKey:kU_TAB_INDEX];
 	[self.radioGroup selectCellAtRow:index column:0];
 	[self onRadioChanged:self.radioGroup];
 }

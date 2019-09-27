@@ -143,6 +143,7 @@
 		34FFBDF31A033E370028BF47 /* AddonsUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDED1A033E370028BF47 /* AddonsUpdater.m */; };
 		34FFBDF41A033E370028BF47 /* PluginCrcList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDEF1A033E370028BF47 /* PluginCrcList.m */; };
 		34FFBDF51A033E370028BF47 /* PluginList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBDF11A033E370028BF47 /* PluginList.m */; };
+		8265FAEA233DB9620018AD09 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8265FAE9233DB9620018AD09 /* WebKit.framework */; };
 		82680F56B197BC5E94937E1C /* libPods-WoWPluginBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 023F2C5DCCE5505BE22DF048 /* libPods-WoWPluginBox.a */; };
 /* End PBXBuildFile section */
 
@@ -375,6 +376,7 @@
 		524B7A4AFF94462FD04EBC4E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6D1B3221BBF2FF1867B9C530 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		778ACD54A75D2A15CDDDAA58 /* Pods-WoWPluginBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoWPluginBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoWPluginBox/Pods-WoWPluginBox.debug.xcconfig"; sourceTree = "<group>"; };
+		8265FAE9233DB9620018AD09 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -382,6 +384,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8265FAEA233DB9620018AD09 /* WebKit.framework in Frameworks */,
 				82680F56B197BC5E94937E1C /* libPods-WoWPluginBox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +402,7 @@
 		1FC7E97C0F0C59171ECD5E26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8265FAE9233DB9620018AD09 /* WebKit.framework */,
 				023F2C5DCCE5505BE22DF048 /* libPods-WoWPluginBox.a */,
 			);
 			name = Frameworks;

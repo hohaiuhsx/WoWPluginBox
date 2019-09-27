@@ -18,4 +18,4 @@
 
 #define kEUI_XML_URL @"http://www.eui.cc/wow/eui.xml"
 
-#define kVER_CHECK @"http://sulan.qiniudn.com/wpb_ver_check.json"
+#define kVER_CHECK @"https://raw.githubusercontent.com/hohaiuhsx/WoWPluginBox/master/wpb_ver_check.json"

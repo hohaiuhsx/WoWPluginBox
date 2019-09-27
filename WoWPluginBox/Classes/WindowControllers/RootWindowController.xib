@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6245"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="RootWindowController">
@@ -14,22 +15,22 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <window title="魔兽世界插件盒子" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+        <window title="魔兽世界插件盒子" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <rect key="contentRect" x="196" y="78" width="960" height="640"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <value key="minSize" type="size" width="960" height="640"/>
             <value key="maxSize" type="size" width="960" height="640"/>
             <view key="contentView" id="se5-gp-TjO">
                 <rect key="frame" x="0.0" y="0.0" width="960" height="640"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="lhd-qk-fAj">
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lhd-qk-fAj">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="640"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="background_wow_wod" id="qx2-zp-UIj"/>
                     </imageView>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="kST-p0-zZA">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kST-p0-zZA">
                         <rect key="frame" x="148" y="20" width="792" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" drawsBackground="YES" id="Scw-Nt-NrW">
@@ -38,8 +39,8 @@
                             <color key="backgroundColor" red="0.40000000000000002" green="0.20000000000000001" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                         </textFieldCell>
                     </textField>
-                    <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" id="LfI-Qe-Iio">
-                        <rect key="frame" x="20" y="-23" width="120" height="643"/>
+                    <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LfI-Qe-Iio">
+                        <rect key="frame" x="20" y="380" width="120" height="240"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                         <size key="cellSize" width="120" height="120"/>
@@ -49,23 +50,11 @@
                         </buttonCell>
                         <cells>
                             <column>
-                                <buttonCell type="bevel" title="魔盒" image="ic_wowbox_n" imagePosition="only" alignment="center" alternateImage="ic_wowbox_p" state="on" tag="1" inset="2" id="5wU-uD-8Gb">
+                                <buttonCell type="bevel" title="魔盒" image="ic_eui_n" imagePosition="only" alignment="center" alternateImage="ic_eui_p" state="on" tag="1" inset="2" id="5wU-uD-8Gb">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
-                                <buttonCell type="bevel" title="大脚" image="ic_bigfoot_n" imagePosition="only" alignment="center" alternateImage="ic_bigfoot_p" inset="2" id="EXT-fQ-f2T">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <buttonCell type="bevel" title="EUI" image="ic_eui_n" imagePosition="only" alignment="center" alternateImage="ic_eui_p" inset="2" id="4Ai-zu-E43">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <buttonCell type="bevel" title="蘑菇" image="ic_mogu_n" imagePosition="only" alignment="center" alternateImage="ic_mogu_p" inset="2" id="jof-sE-WPo">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <buttonCell type="bevel" title="本地" image="ic_local_n" imagePosition="only" alignment="center" alternateImage="ic_local_p" inset="2" id="7HO-hc-3aP">
+                                <buttonCell type="bevel" title="大脚" image="ic_local_n" imagePosition="only" alignment="center" alternateImage="ic_local_p" inset="2" id="EXT-fQ-f2T">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -86,15 +75,9 @@
     </objects>
     <resources>
         <image name="background_wow_wod" width="1920" height="800"/>
-        <image name="ic_bigfoot_n" width="120" height="120"/>
-        <image name="ic_bigfoot_p" width="120" height="120"/>
         <image name="ic_eui_n" width="120" height="120"/>
         <image name="ic_eui_p" width="120" height="120"/>
         <image name="ic_local_n" width="120" height="120"/>
         <image name="ic_local_p" width="120" height="120"/>
-        <image name="ic_mogu_n" width="120" height="120"/>
-        <image name="ic_mogu_p" width="120" height="120"/>
-        <image name="ic_wowbox_n" width="120" height="120"/>
-        <image name="ic_wowbox_p" width="120" height="120"/>
     </resources>
 </document>

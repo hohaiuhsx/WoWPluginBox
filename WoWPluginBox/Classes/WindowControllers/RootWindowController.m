@@ -40,7 +40,7 @@
 	currentSelected = NSNotFound;
 
     //默认EUI
-    NSInteger index = 2;//[[NSUserDefaults standardUserDefaults] integerForKey:kU_TAB_INDEX];
+    NSInteger index = 0;//[[NSUserDefaults standardUserDefaults] integerForKey:kU_TAB_INDEX];
 	[self.radioGroup selectCellAtRow:index column:0];
 	[self onRadioChanged:self.radioGroup];
 }
@@ -59,23 +59,23 @@
 
 	BaseViewController *controller = nil;
 	switch (currentSelected) {
+//		case 0:
+//			controller = self.wowBoxController;
+//			break;
+//
+//		case 1:
+//			controller = self.bigfootController;
+//			break;
+
 		case 0:
-			controller = self.wowBoxController;
-			break;
-
-		case 1:
-			controller = self.bigfootController;
-			break;
-
-		case 2:
 			controller = self.euiController;
 			break;
 
-		case 3:
-			controller = self.moguController;
-			break;
+//		case 3:
+//			controller = self.moguController;
+//			break;
 
-		case 4:
+		case 1:
 			controller = self.localController;
 			break;
 
